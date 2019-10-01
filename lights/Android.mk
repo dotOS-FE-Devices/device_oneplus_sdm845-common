@@ -21,6 +21,7 @@ LOCAL_SHARED_LIBRARIES := \
     libhidlbase \
     libhidltransport \
     liblog \
+    libutils \
     android.hardware.light@2.0
 
 LOCAL_STATIC_LIBRARIES := \
