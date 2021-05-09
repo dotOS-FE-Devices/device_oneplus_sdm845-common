@@ -1,16 +1,28 @@
 [
   {
-    "repository"  : "kernel_oneplus_sdm845",
-    "target_path" : "kernel/oneplus/sdm845"
-  },
-  {
-    "repository"  : "vendor_oneplus",
+    "remote"      : "github",
+    "branch"      : "eleven",
+    "repository"  : "CherishOS-Devices/vendor_oneplus",
     "target_path" : "vendor/oneplus"
   },
-    "repository"  : "vendor_addons_oneplus_camera",
-    "branch"      : "gallery",
-    "clone-depth" : "1",
+  {
+
+    "remote"      : "github",
+    "branch"      : "eleven",
+    "repository"  : "CherishOS-Devices/vendor_addons_oneplus_apps",
     "target_path" : "vendor/addons/oneplus/apps"
+  },
+  {
+    "remote"      : "github",
+    "branch"      : "eleven",
+    "repository"  : "CherishOS-Devices/device_oneplus_common",
+    "target_path" : "device/oneplus/common"
+  },
+  {
+    "remote": "github",
+    "repository": "zahidmgsk/kernel_oneplus_sdm845",
+    "target_path": "kernel/oneplus/sdm845",
+    "branch": "Illusion-263"   
   },
   {
     "repository"  : "kdrag0n/proton-clang",
